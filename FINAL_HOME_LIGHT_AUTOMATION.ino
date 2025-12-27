@@ -5,7 +5,8 @@
 #define API_TOGGLE_VPIN V3  // Toggle switch for using API
 #define BLYNK_TEMPLATE_ID "TMPL3d5b7C0Kd"
 #define BLYNK_TEMPLATE_NAME "HOME LIGHT AUTOMATION"
-#define BLYNK_AUTH_TOKEN "k3sSym2Hqst5IJ6Sgj5phM45mbS61wmc"
+#define BLYNK_AUTH_TOKEN "ADD_YOUR_BLYNK_AUTH_TOKEN"
+
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -13,9 +14,10 @@
 #include <WiFiClientSecure.h>
 
 // WiFi and Blynk Credentials
-char ssid[] = "Network101";
-char pass[] = "12348765";
-char auth[] = "k3sSym2Hqst5IJ6Sgj5phM45mbS61wmc";
+char auth[] = "ADD_YOUR_BLYNK_TOKEN";
+char ssid[] = "ADD_YOUR_WIFI_NAME";
+char pass[] = "ADD_YOUR_WIFI_PASSWORD";
+
 
 // Google API URL
 const char* google_api_url = "https://api.sunrise-sunset.org/json?lat=30.3398&lng=76.3869&formatted=0";
